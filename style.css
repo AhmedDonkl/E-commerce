@@ -1,0 +1,251 @@
+*{
+   margin:0px;
+   padding:0px;
+  }
+  
+header,nav,section,article,aside,footer{
+              display:block; 
+			 }
+
+h1{ font: 30px bold italic; }
+
+body{
+      width:100%;
+      text-align:center;
+	  display: -webkit-box;
+	  -webkit-box-pack: center;
+	  background: -webkit-linear-gradient(120deg,#ffebcd,#cd853f);
+    }
+h4{ font: 30px bold italic; }
+#whole_page{
+       margin: 20px;
+       max-width: 1000px;
+       text-align: left;
+	   display: -webkit-box;
+	   -webkit-box-orient: vertical;
+	   -webkit-box-flex: 1;
+    }
+
+#top_header{
+      padding: 20px;
+	  font-family: JennaSue;
+	  /*background: -webkit-linear-gradient(45deg,#DEB887,#D2691E) ;*/
+	  text-shadow: 2px 2px 5px #444;
+	  width:300px;
+	  -webkit-border-radius: 20px;
+	  -webkit-box-shadow: rgba(110,110,110,.6) 5px 5px 7px;
+	  text-align:center;
+	  margin: auto;
+	  margin-bottom:20px;
+	  -webkit-transition: -webkit-transform 2s, width 2s, background 2s;
+	}
+	
+#top_header:hover{
+	  width:350px;
+	  background: -webkit-linear-gradient(45deg,#DEB887,#D2691E) ;
+	  -webkit-transform:rotate(360deg);
+	}
+
+#nav_bar{
+	  padding:15px;
+	  font-family: italic;
+	  /*background: -webkit-linear-gradient(45deg,#DEB887,#D2691E) ;*/
+	  -webkit-border-radius: 20px;
+	  -webkit-box-shadow: rgba(110,110,110,.6) 5px 5px 7px;
+	}
+	
+#nav_bar li{
+      display: inline-block;
+	  list-style: none;
+	  font: 20px bold italic;
+	  padding:5px;
+	}
+
+	
+#section_side{
+      display: -webkit-box;
+	  -webkit-box-orient: horizontal;
+	}
+
+#main{
+       -webkit-box-flex: 1;
+       margin:20px;
+     }
+
+#the_article{
+      border: 2px solid black;
+      padding: 20px;
+    }
+
+ 
+
+#side{
+       background: -webkit-linear-gradient(45deg,#DEB887,#CD853F) ;
+       width: 220px;
+       margin: 20px 0px;
+       padding: 30px;
+	   height: 450px;
+    }	   
+	
+#the_footer{
+      border-top: 2px solid black;
+      text-align: center;
+	  padding:10px;
+    }	  
+	  
+  
+	  
+a:link{ color:#8b0000;
+        text-decoration:none;
+	  }
+  
+a:visited{ color:#8b0000;
+           text-decoration:none; 
+		 }
+   
+a:hover{ 
+          background-color:#CD853F;
+		  text-decoration:underline;
+		}
+		 
+a:active{ color:orange; }	  
+	  
+p:first-letter{ font:25px bold italic; }
+		 
+ 
+
+span{
+      font: 23px bold italic;
+	  text-shadow: 2px 2px 5px #444;
+	  padding-left:20px;
+    }	  
+
+	  
+	  
+#news{
+       font: 23px bold italic;
+	   text-shadow: 2px 2px 5px #444;
+	   padding-left:70px;
+     }	   
+	  
+#product_name{
+        font: 23px bold italic;
+	   text-shadow: 2px 2px 5px #444;  
+     
+	 }	  
+	  
+#badr{ 
+      border: 3px solid #cd853f;
+	  -webkit-border-radius: 20px;
+	  -webkit-box-shadow: rgba(110,110,110,.6) 5px 5px 7px;
+	  
+	}
+      
+#badr td{
+    border: 2px dashed #a0522d;
+    padding:13px;
+	-webkit-border-radius: 20px;
+ }
+   
+#badr th{  
+    border: 2px dashed #a0522d;
+    padding:10px;
+	-webkit-border-radius: 20px;
+	text-align:center;
+ }
+        	  
+#big_box{
+           width: 80%;
+           height: 300px;
+           margin: 10px;
+           padding: 20px;
+           display: -webkit-box;
+           -webkit-box-flex: 1;
+           -webkit-box-orient: horizontal;
+        }	 
+	  
+#my_img{
+    margin-left: 150px;
+	 height:200px;
+	 width:300px;
+   }	  
+   
+   #my_img1{
+    margin-left: 1000px;
+   
+	 
+   }
+	  #my_img2{
+	   max-height:200px;
+	 max-width:200px;
+    
+   
+	 
+   }
+
+h1{
+      padding: 20px;
+	  font-family: JennaSue;
+	  background: -webkit-linear-gradient(45deg,#DEB887,#D2691E) ;
+	  text-shadow: 5px 2px 5px #444;
+	  width:200px;
+	  -webkit-border-radius: 20px;
+	  -webkit-box-shadow: rgba(110,110,110,.6) 5px 5px 7px;
+	  text-align:center;
+	  margin: auto;
+	  margin-bottom:20px;
+	  -webkit-transition: -webkit-transform 2s, width 2s, background 2s;
+	}   
+    
+    h2{
+      
+	  font-family: JennaSue;
+	  text-align:center;
+	  margin-right: 10px;
+	  
+	}
+    
+     h3{
+      
+	  font-family: JennaSue;
+	  text-align:left;
+	  margin-right: 10px;
+	  
+	}
+    
+      h5{
+      
+	  font: 15px bold italic;
+	
+	  
+	}
+    
+    .myform
+    {
+        font-size: 20px;
+        margin-top: 30px;
+        
+        
+    }
+      .myform td
+    {
+        padding-top: 3px; 
+              
+    }
+    #btn_sub
+    {
+        width: 155px;
+        height: 50px;
+    }
+    #input_sub
+    {
+        width: 300px;
+        height: 20px;
+    }
+    #product_name{
+        font: 23px bold italic;
+	   text-shadow: 2px 2px 5px #444;  
+     
+	 }	
+
+	 
